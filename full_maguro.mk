@@ -24,6 +24,7 @@
 # Get the long list of APNs
 PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
+# Camera
 PRODUCT_PACKAGES := \
     Gallery \
     GNexusParts
@@ -40,4 +41,4 @@ PRODUCT_NAME := full_maguro
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := AOSP on Maguro
-PRODUCT_RESTRICT_VENDOR_FILES := true
+PRODUCT_RESTRICT_VENDOR_FILES := false
