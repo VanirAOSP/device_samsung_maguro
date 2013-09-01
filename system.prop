@@ -19,3 +19,6 @@ ro.device.screen_res=720x1280
 
 # GPU producer to CPU consumer not supported
 ro.bq.gpu_to_cpu_unsupported=1
+
+# Disable GC freed lines
+dalvik.vm.debug.alloc=0
